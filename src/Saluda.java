@@ -1,8 +1,12 @@
+import java.util.Scanner;
 
 public class Saluda {
 
 	public static void main(String[] args) {
-		System.out.println("HOLA");
+		Scanner teclado=new Scanner(System.in);
+		System.out.println("CUAL ES TU NOMBRE");
+		String nombre=teclado.nextLine();
+		System.out.println(nombre);
 	}
 
 }
